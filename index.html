@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Drag Papers ❤️</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Short+Stack&family=Homemade+Apple&display=swap">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <audio id="bg-audio" controls loop>
+    <source src="He Don't give a  Niveta Dhingra  Female version   whatsapp status   niveta dhingra music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <!-- A pen by Developer Rahul  -->
+  <div class="paper heart"></div>
+  <div class="paper image">
+    <p>you're blessing to me and, </p>
+    <p>so many others!😍 </p>
+    <img src="image/9.jpeg" alt="Image 9" />
+  </div>
+
+  <div class="paper image">
+    <p>keep shining youre light and, </p>
+    <p>know how special you are!😍 </p>
+    <img src="image/8.jpeg" alt="Image 8" />
+  </div>
+
+  <div class="paper image">
+    <p>here's to many more, </p>
+    <p>amazing moments together!</p>
+    <img src="image/7.jpeg" alt="Image 7" />
+  </div>
+
+  <div class="paper image">
+    <p>You're a treasure, and I'm so </p>
+    <p>lucky to have uou in my life bhaiya😍 </p>
+    <img src="image/6.jpeg" alt="Image 6" />
+  </div>
+
+  <div class="paper image">
+    <p>Your presence makes a difference, </p>
+    <p>and your absence is noticed😍 </p>
+    <img src="image/5.jpeg" alt="Image 5" />
+  </div>
+
+  <div class="paper image">
+    <p>you're the sparle that </p>
+    <p>makes life more beautifu! 🌟😊, </p>
+    <img src="image/4.jpeg" alt="Image 4" />
+  </div>
+
+  <div class="paper image">
+    <p>Your smile brightens up even, </p>
+    <p>the cloudiest days😍 </p>
+    <img src="image/3.jpeg" alt="Image 3" />
+  </div>
+
+  <div class="paper image">
+    <img src="image/2.jpeg" alt="Image 2" />
+  </div>
+
+  <div class="paper image">
+    <p>you deserve all the love, </p>
+    <p>and happiness in the world ❤️ </p>
+    <img src="image/1.jpeg" alt="Image 1" />
+  </div>
+
+  <div class="paper red">
+    <p class="p1"> and My Favorite</p>
+    <p class="p2">Person 😍</p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">You are Cute </p>
+    <p class="p1">Amazing <span style="color: red !important;">❤️</span></p>
+  </div>
+
+  <div class="paper">
+    <p class="p1">Drag the papers to move!</p>
+  </div>
+  <script src="./script.js"></script>
+  <script>
+    // Attempt to play the audio after a user interaction
+    document.addEventListener('click', function() {
+      const audio = document.getElementById('bg-audio');
+      if (audio.paused) {
+        audio.play().catch((error) => {
+          console.log('Playback prevented:', error);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
